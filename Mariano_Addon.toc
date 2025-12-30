@@ -1,0 +1,10 @@
+## Interface: 110105, 120000, 110205, 50500, 40402, 20505, 11507
+## Title: Mariano Addon
+## Notes: CC
+## Author: Mariano
+## Version: 1.0.0
+## SavedVariables: Mariano_Addon
+## OptionalDeps: TellMeWhen
+## X-Category: Combat
+## X-License: All Rights Reserved
+Mariano_Addon.lua

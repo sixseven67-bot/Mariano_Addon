@@ -126,14 +126,19 @@ local function InitializeAddon()
     local savedVars = GetOrCreateSavedVars()
     local defaults = BuildDefaults()
     
-    -- Expose global reference
+    -- Expose global reference (named after addon for SavedVariables)
     Mariano_Addon = savedVars
+    
+    -- ALSO set constant alias for rotation/marker detection
+    -- This global name is NOT replaced by the installer
+    _G["MARIANO_CTT_STORAGE"] = savedVars
     
     -- Populate missing sections
     MergeDefaults(Mariano_Addon, defaults)
     
     -- Defensive: ensure all CTT subtables exist
     EnsureCTTIntegrity(Mariano_Addon.CTT)
+    
 end
 
 -------------------------------------------------------------------------------

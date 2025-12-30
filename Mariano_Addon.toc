@@ -1,7 +1,7 @@
 ## Interface: 110105, 120000, 110205,
 ## Title: Mariano Addon
 ## Notes: Storage and configuration for TellMeWhen
-## IconTexture: Interface\Addons\TellMeWhen\Textures\LDB Icon
+## IconTexture: Interface\Addons\TellMeWhen\Textures\Config
 ## Author: Mariano
 ## RequiredDeps: TellMeWhen
 ## DefaultState: enabled
@@ -12,3 +12,4 @@
 ## X-Category: Combat
 
 Mariano_Addon.lua
+
